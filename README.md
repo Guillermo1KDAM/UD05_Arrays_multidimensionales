@@ -65,5 +65,48 @@ Se puede averiguar con el .lenght()
 
 d. 
 
+Si que se podría matriz[0] = {0, 1, 2, 3}
 
+e.
+```agsl
+for(int i = 0; i < m.length; i++){
+    	for(int j = 0; j < m[i].length; j++){
+    		System.out.print(m[i][j] + " ");    // Imprime elemento
+    	}
+    	System.out.println();	// Imprime salto de línea
+    }
+```
+### Ejercicio 4
 
+int[][] int2d = new int[5][10]
+
+### Ejercicio 5
+
+```agsl
+public int [][] multiplicarPor2(int array[][]){
+int[][] matrizMultiplicada = new int[][]
+for (int i=0;i<array.length;i++){//total filas
+for(int j=0;j<array[0].length;j++){//total columnas
+matrizMultiplicada = + matrizMultiplicada +(array[i][j])*2);
+}
+}
+return matrizMultiplicada;
+}
+```
+
+### Ejercicio 6
+
+```agsl
+public void imprimirMatriz(int array[][]){
+for (int i=0;i<array.length;i++){//total filas
+for(int j=0;j<array[0].length;j++){//total columnas
+if (array[i][j] == null){
+System.out.println("Fila vacia");
+}
+else{
+System.out.print(array[i][j])
+}
+}
+}
+}
+```
