@@ -100,7 +100,7 @@ return matrizMultiplicada;
 public void imprimirMatriz(int array[][]){
 for (int i=0;i<array.length;i++){//total filas
 for(int j=0;j<array[0].length;j++){//total columnas
-if (array[i][j] == null){
+if (array[i][0] == null){
 System.out.println("Fila vacia");
 }
 else{
