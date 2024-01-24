@@ -10,15 +10,15 @@ b. int [ ][ ] gradeTable = new int[7][5];
 
 c.
 
-i.
+i. Devuelve 94
 
-ii.
+ii. Guarda el valor 40 en la variable value
 
 iii. Da error porque esa posición no existe
 
 iv. Da error porque esa posición no existe
 
-v.
+v.Da error
 
 ### Ejercicio 2
 El valor sería 4
