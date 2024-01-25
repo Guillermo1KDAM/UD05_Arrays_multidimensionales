@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class VentasSemanales {
 
-    int numSemanas;
+    int numSemanas = 2;
     int[][] seguimiento;
 
     public VentasSemanales(int numSemanas){
@@ -26,9 +26,13 @@ public class VentasSemanales {
     public String toString() {
         StringBuilder tabla= new StringBuilder("Semana");
         tabla.append(String.format("%-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s","Alumno", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));
-
+        int contador=0;
         for (int i=0; i<numSemanas; i++){
-            tabla.append(String.format("%10s"));
+            tabla.append(String.format("%-10.25s","S" + ++contador));
+
+            for (int k=0; k<7 ; k++) {
+                tabla.append(String.format("%-10.25s", seguimiento[i][k]));
+            }
         }
         return tabla.toString();
     }
