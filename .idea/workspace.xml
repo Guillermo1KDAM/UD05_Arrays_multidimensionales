@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ad9bab-7874-46a5-981f-6fb5cb035e0f" name="Changes" comment="fin README">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68ad9bab-7874-46a5-981f-6fb5cb035e0f" name="Changes" comment="ToString MasPruebas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Periódico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Periódico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VentasSemanales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentasSemanales.java" afterDir="false" />
@@ -78,13 +77,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706119096822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ToString Pruebas">
+      <option name="closed" value="true" />
+      <created>1706210568152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706210568152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ToString MasPruebas">
+      <option name="closed" value="true" />
+      <created>1706211473421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706211473421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README" />
     <MESSAGE value="continuacion readme" />
     <MESSAGE value="fin README" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin README" />
+    <MESSAGE value="ToString Pruebas" />
+    <MESSAGE value="ToString MasPruebas" />
+    <option name="LAST_COMMIT_MESSAGE" value="ToString MasPruebas" />
   </component>
 </project>

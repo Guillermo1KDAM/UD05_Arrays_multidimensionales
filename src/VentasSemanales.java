@@ -8,7 +8,7 @@ public class VentasSemanales {
     public VentasSemanales(int numSemanas){
         this.numSemanas = numSemanas;
         this.seguimiento = new int[numSemanas][7];
-        Arrays.fill(seguimiento, 0);
+        inicializaVenta();
     }
 
     public void guardaVenta(int semana, int dia, int valor) {
@@ -18,8 +18,13 @@ public class VentasSemanales {
             System.out.println("Esta fuera de rango");
         }
     }
+
     public void inicializaVenta(){
-        Arrays.fill(seguimiento, 0);
+        for (int i =0; i<numSemanas; i++){
+            for (int j=0;j<7;j++){
+                seguimiento[i][j] = 0;
+            }
+        }
     }
 
     @Override
@@ -34,7 +39,6 @@ public class VentasSemanales {
                 tabla.append(String.format("%-10.25s", seguimiento[i][k]));
             }
         }
-        return tabla.toString();
+        return String.valueOf(tabla);
     }
 }
-
