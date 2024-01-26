@@ -29,15 +29,20 @@ public class VentasSemanales {
 
     @Override
     public String toString() {
-        StringBuilder tabla= new StringBuilder("Semana");
-        tabla.append(String.format("%-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s %-10.25s","Alumno", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));
+        StringBuilder tabla= new StringBuilder("");
+        tabla.append(String.format("%10s %9s %10s %12s %10s %10s %8s %10s","Alumno", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));
         int contador=0;
         for (int i=0; i<numSemanas; i++){
-            tabla.append(String.format("%-10.25s","S" + ++contador));
+            tabla.append(String.format("%6.25s","S" + ++contador));
 
             for (int k=0; k<7 ; k++) {
-                tabla.append(String.format("%-10.25s", seguimiento[i][k]));
+                if (k == 3) {
+                    tabla.append(String.format("%14s", seguimiento[i][k]));
+                } else {
+                    tabla.append(String.format("%10s", seguimiento[i][k]));
+                }
             }
+            tabla.append("\n");
         }
         return String.valueOf(tabla);
     }

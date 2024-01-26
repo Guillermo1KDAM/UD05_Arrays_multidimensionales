@@ -3,7 +3,7 @@ public class Periódico {
         VentasSemanales lista = new VentasSemanales(2);
         int numSemanas=1;
         lista.inicializaVenta();
-        lista.toString();
+        System.out.println(lista.toString());
 
     }
 }
