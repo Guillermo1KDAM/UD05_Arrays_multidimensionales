@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ad9bab-7874-46a5-981f-6fb5cb035e0f" name="Changes" comment="ToString aun MasPruebas">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68ad9bab-7874-46a5-981f-6fb5cb035e0f" name="Changes" comment="Fin Ejercicio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Periódico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Periódico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VentasSemanales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentasSemanales.java" afterDir="false" />
@@ -24,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Guillermo1KDAM"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4db4a3e7-1d0c-4102-a6e4-eda8d62e280b" />
+        <option name="url" value="https://github.com/Guillermo1KDAM/UD05_Arrays_multidimensionales.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706211924659</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fin Ejercicio">
+      <option name="closed" value="true" />
+      <created>1706375260269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706375260269</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +136,36 @@
     <MESSAGE value="ToString Pruebas" />
     <MESSAGE value="ToString MasPruebas" />
     <MESSAGE value="ToString aun MasPruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="ToString aun MasPruebas" />
+    <MESSAGE value="Fin Ejercicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin Ejercicio" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/VentasSemanales.java</url>
+          <line>41</line>
+          <properties class="VentasSemanales" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/VentasSemanales.java</url>
+          <line>24</line>
+          <properties class="VentasSemanales" method="guardaVenta">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Periódico.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
