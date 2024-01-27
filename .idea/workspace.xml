@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68ad9bab-7874-46a5-981f-6fb5cb035e0f" name="Changes" comment="ToString aun MasPruebas">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Periódico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Periódico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VentasSemanales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VentasSemanales.java" afterDir="false" />
@@ -42,6 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/home/ALU1K/IdeaProjects/UD05_ Arrays multidimensionales"
   }
 }]]></component>
