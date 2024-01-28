@@ -30,6 +30,9 @@ public class VentasSemanales {
             }
     }
 
+    /**
+     * Inicializa las ventas a 0
+     */
     public void inicializaVenta() {
         for (int i = 0; i < numSemanas; i++) {
             for (int j = 0; j < 7; j++) {
@@ -38,6 +41,10 @@ public class VentasSemanales {
         }
     }
 
+    /**
+     *
+     * @return Devuelve en formato tabulado todas las ventas de todas las semanas en relacion a los dias de la semana
+     */
     @Override
     public String toString() {
         StringBuilder tabla = new StringBuilder();
@@ -58,6 +65,11 @@ public class VentasSemanales {
         return String.valueOf(tabla);
     }
 
+    /**
+     *
+     * @param semana
+     * @return Devuelve en formato tabulado todas las ventas de una semana en concreto
+     */
     public String totalUnaSemana(int semana) {
         StringBuilder unaSemana = new StringBuilder();
         unaSemana.append(String.format("%10s %9s %10s %12s %10s %10s %8s %10s", "Semana", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));
@@ -72,6 +84,11 @@ public class VentasSemanales {
         return unaSemana.toString();
     }
 
+    /**
+     *
+     * @param dia
+     * @return Suma las ventas de un dia de todas las semanas
+     */
     public int totalDiaSemana(int dia) {
         int sumaPeriodicos = 0;
         for (int i = 0; i < numSemanas; i++) {
@@ -80,11 +97,21 @@ public class VentasSemanales {
         return sumaPeriodicos;
     }
 
+    /**
+     *
+     * @param dia
+     * @return Devuelve la media de ventas para el día de la semana
+     */
     public int mediaDiaSemana(int dia) {
         int media = totalDiaSemana(dia);
         return media / numSemanas;
     }
 
+    /**
+     *
+     * @return Devuelve un string en formato tabulado con la suma total de cada día de la
+     * semana
+     */
     public String totalSemana() {
         StringBuilder sumaDiasSemana = new StringBuilder();
         sumaDiasSemana.append(String.format("%9s %10s %12s %10s %10s %8s %10s", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));
@@ -100,6 +127,10 @@ public class VentasSemanales {
         return sumaDiasSemana.toString();
     }
 
+    /**
+     *
+     * @return Devuelve un string en formato tabulado con la media de cada día de la semana
+     */
     public String mediaSemana() {
         StringBuilder mediaSemana = new StringBuilder();
         mediaSemana.append(String.format("%9s %10s %12s %10s %10s %8s %10s", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo\n"));

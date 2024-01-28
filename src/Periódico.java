@@ -1,10 +1,11 @@
 public class Periódico {
     public static void main(String[] args) {
         /**
-         * Esto es un prueba para los diferentes métodos
+         * Esto son diferentes pruebas para los diferentes métodos de la clase VentasSemanales
          */
 
-       /*VentasSemanales lista = new VentasSemanales(2);
+       /*
+        VentasSemanales lista = new VentasSemanales(2);
         int numSemanas = 2;
         lista.inicializaVenta();
         int i = 10;
